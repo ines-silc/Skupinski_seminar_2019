@@ -21,4 +21,4 @@ To so viri, navedeni s strani profesorjev, vse ostale vire prosim dodajajte v ma
 
 ## Navodila
 
-Za začetek prosim, da vsak doda še vire, ki bi po vašem okusu bili koristni pri nalogi. 
+Za začetek prosim, da vsak doda še vire, ki bi po vašem okusu bili koristni pri nalogi. Glede na to, da je poudarjeno, da moramo kazalnike prikazati v številkah, prosim še, da predlagate v katerem programu bi risali grafe in obdelovali podatke, torej kaj vam je boljše R, Excel, direktni grafi iz Eurostata... da bomo vedeli kako organizirati prihodnje delo.
