@@ -9,7 +9,7 @@ Različne kvantitativne mere ekonomske neenakosti dohodka in premožnja (prag re
 
 * `Thomas Piketty: Capital in the twenty-first century Piketty`: legalna verzija knjige je na voljo v knjižnicah, ki so navedene [tukaj](https://plus.cobiss.si/opac7/bib/21991654). Knjiga pa je tudi v mapi Viri v obliki .pdf in .epub.
 
-* `W.Salverda, B.Nolan, and T.M.Smeeding. The Oxford Handbook of Economic Inequality`: naj bi bilo na voljo [tu](http://www.lisproject.org/workshop/jenkins-vankerm.pdf), drugače pa v knjižnici na FDV ([povezava](https://plus.cobiss.si/opac7/bib/30256733)). Če kdo najde še kakšen drug vir tega dokumenta, naj ga prosim doda.
+* `W.Salverda, B.Nolan, and T.M.Smeeding. The Oxford Handbook of Economic Inequality`: pdf se nahaja v mapi Viri, drugače pa v knjižnici na FDV ([povezava](https://plus.cobiss.si/opac7/bib/30256733)). 
 
 * `F. Solt. Economic inequality and democratic political engagement`: .pdf datoteka se nahaja v mapi Viri
 
