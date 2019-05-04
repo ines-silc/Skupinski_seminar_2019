@@ -105,8 +105,43 @@ Ta teorija ima predvsem dve veliki \textbf{pomanjkljivosti}:
 
 \section[Posamezni kazalniki]{Posamezni kazalniki}
 \subsection[Prag revščine]{Prag revščine}
-\subsection[Lorenzova krivulja]{Lorenzova krivulja}
+
 \subsection[Ginijev koeficient]{Ginijev koeficient}
+Ginijev koeficient je merilo neenakomerne porazdelitve sredstev med populacijo. Imenuje se po italijanskem statistiku Corradu Giniju (1884-1965). Nižji kot je koeficient,  bolj enakomerna je porazdelitev,  in višji kot je,  bolj neenakomerna je porazdelitev. Zavzame lahko vrednosti med 0 (popolna enakost) in 1 (eden ima vse). Torej število 0 predstavlja popolno enakost (vsakdo ima popolnoma enaki prihodek in premoženje), število 1 pa predstavlja popolno neenakost (nobeden nima enakega prihodka in premoženja). 
+
+Tipičen primer neenakomerne porazdelitve premoženja predstavlja podatek, da si 10 \% svetovnega prebivalstva lasti 87, 7 \% celotnega svetovnega bogastva.
+
+\subsection[Lorenzova krivulja]{Lorenzova krivulja}
+
+Ginijev  koeficient  definiramo  s  pomočjo  Lorenzove  krivulje,  ki  je  grafični  prikaz porazdelitve neke količine med prebivalstvom.
+
+Denimo,  da  je  med  populacijo  velikosti  N  porazdeljena  količina  Q,  ki  na  primer  predstavlja  družinski  dohodek,  premoženje,  zemljo  ...   Populacijo  razvrstimo po naraščajočem vrstnem redu njihovega deleža količine  Q.  Za vsak p med 0 in 1 ljudje v prvem p-tem deležu predstavljajo najrevnejših (glede na Q) 100p odstotkov populacije.   Z  L(p)  označimo  del  količine  Q,  ki  si  jo  lasti  ta  del  populacije. Tako smo podali funkcijo L, ki preslika interval [0, 1] vase. Njen graf imenujemo Lorenzova  krivulja. 
+
+V primeru, da bi si vsak posameznik lastil enak delež količine Q, bi bila  enačba  Lorenzove  krivulje  $L(p)  =  p$  in  bi  predstavljala  popolno  enakomerno porazdelitev premoženja.  Iz definicije funkcije L sledi, da je $0 \leq L(p) \leq p$ za vsak $p \in [0, 1]$. 
+
+\begin{figure}
+\includegraphics[width= \linewidth]{./slike/lorenzova-krivulja.png}
+\end{figure}
+
+Ginijev koeficient je dvakratnik ploščine med grafom popolne enakomerne porazdelitve in med grafom Lorenzove krivulje.
+
+Ginijev koeficient je torej količina, izračunana iz Lorenzove krivulje: 
+$$G := 2 \cdot \int_{0}^{1} (p - L(P)) dp. $$
+
+Ker je $0 \leq \int_{0}^{1} (p - L(P)) dp \leq \int_{0}^{1} p dp = \frac{1}{2}$, je $G \in [0, 1].$
+
+\begin{figure}
+\includegraphics[width= \linewidth]{./slike/gini-slo.png}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width= \linewidth]{./slike/gini-manj-07.png}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width= \linewidth]{./slike/gini-vec-09.png}
+\end{figure}
+
 \subsection[Palmovo razmerje]{Palmovo razmerje}
 
 \newpage
