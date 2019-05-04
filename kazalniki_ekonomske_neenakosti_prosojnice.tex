@@ -7,7 +7,9 @@
 \usepackage{helvet}
 \usepackage{courier}
 \usepackage{hyperref}
+\usepackage{wrapfig}
 \usepackage{tikz}
+\usepackage{tcolorbox}
 
 \usetheme{CambridgeUS}
 
@@ -75,6 +77,58 @@ $$
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+\frametitle{Ginijev koeficient}
+
+\begin{columns}[T]
+    \begin{column}{.5\textwidth}
+     \begin{block}{}
+\begin{itemize}
+\item Italijanski statistik Corrado Gini (1884 - 1965).
+\item Število 0 predstavlja popolno enakost, število 1 pa popolno neenakost. 
+\item PRIMER: 10 \% svetovnega prebivalstva si lasti 87,7 \% celotnega svetovnega bogastva.
+\end{itemize}
+    \end{block}{}
+    \end{column}
+    \begin{column}{.5\textwidth}
+    \begin{block}{Corrado Gini}
+    \includegraphics[width=0.9\textwidth]{./slike/corrado-gini.jpg}
+    \end{block}{}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Lorenzova krivulja}
+\begin{itemize}
+\item Populacija velikosti N, količina Q. 
+\item Z L(p) označimo del količine Q, ki si jo lasti del populacije v prvem p-tem deležu.
+\item Graf funkcije L(p) imenujemo \textbf{Lorenzova krivulja}.
+\item Popolna enakomerna porazdelitev premoženja: L(p) = p.
+$$\Rightarrow 0 \leq L(p) \leq p$$
+\begin{tcolorbox}[colback=black!5,colframe=red!40!black,title=Ginijev koeficient]
+$$G := 2 \cdot \int_{0}^{1} (p - L(P)) dp$$
+\end{tcolorbox}
+\item Ker je  $0 \leq \int_{0}^{1} (p - L(P)) dp \leq \int_{0}^{1} p dp = \frac{1}{2}$, je $G \in [0, 1].$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ekonomska neenakost doma in po svetu}
+\begin{figure}
+\includegraphics[width= \linewidth]{./slike/gini-slo.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ekonomska neenakost doma in po svetu}
+\begin{figure}
+\includegraphics[height=.3 \textwidth, width = .7\linewidth]{./slike/gini-manj-07.png}
+\hspace{0.3\textwidth}
+\hfill
+\includegraphics[height=.3 \textwidth, width = .6\linewidth]{./slike/gini-vec-09.png}
+\end{figure}
+\end{frame}
 
 \begin{frame}
 \frametitle{Viri}
@@ -90,6 +144,12 @@ $$
 		\item 
 			\label{Metrike ekonomske neenakosti}
 			\emph{Income inequality metrics}, v: Wikipedia, The Free Encyclopedia, [ogled 					20.~4.~2019], dostopno na \url{https://en.wikipedia.org/w/index.php?								title=Income_inequality_metrics&oldid=853906711}.
+
+\item
+\emph{Ginijev koeficient}, Janja Trogar, [ogled 3.~5.~2019], dostopno na \url{https://repozitorij.uni-lj.si/IzpisGradiva.php?id=97164}.
+
+\item
+\emph{Statistični urad RS}, Neenakost porazdelitve dohodka - Ginijev količnik (\%), Slovenija, letno, [ogled 4.~5.~2019], dostopno na \url{https://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=0867312S&ti=&path=../Database/Dem_soc/08_zivljenjska_raven/08_silc_kazalniki_revsc/15_08673_porazdel_dohodka/&lang=2}.
 \end{itemize}
 \end {frame}
 
