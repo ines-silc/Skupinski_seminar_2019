@@ -1,5 +1,5 @@
 \documentclass[10pt]{beamer}
-\usepackage[slovene]{babel}
+%\usepackage[slovene]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -116,19 +116,90 @@ $$G := 2 \cdot \int_{0}^{1} (p - L(P)) dp$$
 \begin{frame}
 \frametitle{Ekonomska neenakost doma in po svetu}
 \begin{figure}
-\includegraphics[width= \linewidth]{./slike/gini-slo.png}
+\includegraphics[width= \linewidth]{./slike/gini-slo.PNG}
 \end{figure}
 \end{frame}
 
 \begin{frame}
 \frametitle{Ekonomska neenakost doma in po svetu}
 \begin{figure}
-\includegraphics[height=.3 \textwidth, width = .7\linewidth]{./slike/gini-manj-07.png}
+\includegraphics[height=.3 \textwidth, width = .7\linewidth]{./slike/gini-manj-07.PNG}
 \hspace{0.3\textwidth}
 \hfill
-\includegraphics[height=.3 \textwidth, width = .6\linewidth]{./slike/gini-vec-09.png}
+\includegraphics[height=.3 \textwidth, width = .6\linewidth]{./slike/gini-vec-09.PNG}
 \end{figure}
 \end{frame}
+
+
+
+
+
+\begin{frame}
+\frametitle{Palmovo razmerje}
+\begin{itemize}
+\item Kazalnik ekonomske neenakosti:
+
+\begin{itemize}
+\item $b := \textrm{delež dohodka, ki pripada 10\% prebivalstva z najvišjim dohodkom},$
+\item $r := \textrm{delež dohodka, ki pripada 40\% prebivalstva z najnižjim dohodkom},$
+\end{itemize}
+$$
+\textrm{Palmovo razmerje} := \frac{b}{r}.
+$$
+
+\item Lastnosti:
+\begin{itemize}
+\item osredotoči se na krajišča (na najrevnejše in najbogatejše prebivalstvo),
+\item odzivno na visoko neenakost (Ginijev koeficijent opazi samo nizko neenakost),
+\item preprost izračun.
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Graf: Palmovo razmerje in Ginijev koeficijent}
+\begin{figure}
+\includegraphics[scale = 0.87]{./slike/gini_palma.png}
+\end{figure}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Indikatorji revščine in posledično kazatelji neenakosti}
+\begin{itemize}
+\item \textbf{Stopnja tveganja revščine} - procent ljudi, ki živijo pod pragom revščine.
+
+\item \textbf{Poverty gap index (PGI)}:
+\begin{itemize}
+\item $N := \textrm{število prebivalcev}$ ,
+\item $q := \textrm{število prebivalcev, ki živijo pod pragom revščine}$,
+\item $z := \textrm{prag revščine}$,
+\item $q_i := \textrm{dohodek revnega prebivalca i}$,
+\end{itemize}
+$$
+PGI = 1/N \sum_{j=1}^q (\frac{z-y_i}{z}).
+$$
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Graf: Stopnja tveganja revščine in Ginijev koeficijent}
+\begin{figure}
+\includegraphics[scale = 0.8]{./slike/gini_revscina.png}
+\end{figure}
+
+\end{frame}
+
+
+
+
+
+
+
+
 
 \begin{frame}
 \frametitle{Viri}
