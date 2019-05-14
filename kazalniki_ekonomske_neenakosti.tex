@@ -1,5 +1,5 @@
 \documentclass[a4paper,12 pt]{article}
-\usepackage[slovene]{babel}
+%\usepackage[slovene]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -141,18 +141,66 @@ $$G := 2 \cdot \int_{0}^{1} (p - L(P)) dp. $$
 Ker je $0 \leq \int_{0}^{1} (p - L(P)) dp \leq \int_{0}^{1} p dp = \frac{1}{2}$, je $G \in [0, 1].$
 
 \begin{figure}
-\includegraphics[width= \linewidth]{./slike/gini-slo.png}
+\includegraphics[width= \linewidth]{./slike/gini-slo.PNG}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width= \linewidth]{./slike/gini-manj-07.png}
+\includegraphics[width= \linewidth]{./slike/gini-manj-07.PNG}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width= \linewidth]{./slike/gini-vec-09.png}
+\includegraphics[width= \linewidth]{./slike/gini-vec-09.PNG}
 \end{figure}
 
-\subsection[Palmovo razmerje]{Palmovo razmerje}
+
+
+\subsection{Palmovo razmerje}
+\subsubsection{Osnovno o Palmovem razmerju}
+% a naj Ines pr osnovnih pojmih definira bruto nacionalni dohodek (BND) kot drzavni dohodek..
+%https://www.thebalance.com/gross-national-income-4020738
+Še en kazalnik ekonomske neenakosti je Palmovo razmerje.
+Definiran je kot razmerje med deležem državnega dohodka, ki pripada $10\%$ prebivalstva z najvišjim dohodkom v državi in deležem državnega dohodka, ki pripada $40\%$ prebivalstva z najnižjim dohodkom v državi.
+$$
+b := \textrm{delež državnega dohodka, ki pripada 10\% prebivalstva z najvišjim dohodkom v državi}
+$$
+$$
+r := \textrm{delež državnega dohodka, ki pripada 40\% prebivalstva z najnižjim dohodkom v državi}
+$$
+$$
+\textrm{Palmovo razmerje} = \frac{b}{r}
+$$
+Palmovo razmerje je smiselno, saj se izkaže da si v večini primerov srednji sloj deli 50\% državnega dohodka, odstal dohodek pa je razdeljen med 10\% najbogatejših in 40\% najrevnejših, vendar v različnih državah v različno
+
+\subsubsection{Prednosti Palmovega razmerja}
+\begin{itemize}
+\item Osredotoči se na krajišča (na najrevnejše in najbogatejše prebivalstvo)
+\item Odzivno na visoko neenakost (Gini opazi samo nizko neenakost)
+\item Preprost izračun
+\end{itemize}
+\subsubsection{Graf: Gini in Palmovo razmerje}
+
+
+
+\subsection{Prag revščine kot pokazatelj ekonomske neenakosti}
+\subsubsection{Indikatorji revščine in posledično kazatelji neenakosti}
+\begin{itemize}
+\item  Stopnja tveganja revščine (Head count ratio at national poverty line)
+
+Prag revščine je minimalna vsota denarja, ki jo posameznik potrebuje za preživetje v določeni državi. Stopnja tveganja revščine predstavlja procent ljudi, ki živijo pod pragom revščine.
+\item Poverty gap index (PGI)
+\begin{itemize}
+\item $N := \textrm{število prebivalcev}$ 
+\item $q := \textrm{število prebivalcev, ki živijo pod pragom revščine}$
+\item $z := \textrm{prag revščine}$
+\item $q_i := \textrm{dohodek revnega prebivalca i}$
+\end{itemize}
+$$
+PGI = 1/N \sum_{j=1}^q (\frac{z-y_i}{z})
+$$
+\end{itemize}
+
+
+\subsubsection{Graf: Gini in prag revščine}
 
 \newpage
 
