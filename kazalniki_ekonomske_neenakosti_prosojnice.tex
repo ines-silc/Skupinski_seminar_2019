@@ -1,5 +1,5 @@
 \documentclass[10pt]{beamer}
-%\usepackage[slovene]{babel}
+\usepackage[slovene]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -30,12 +30,11 @@ Vsebina predavanja:
 		\item Tekma med izobraževanjem in tehnologijo
 		\item Posamezni kazalniki neenakosti
 			\begin{itemize}
-				\item Prag revščine
-				\item Lorenzova krivulja
 				\item Ginijev koeficient
+				\item Lorenzova krivulja
 				\item Palmovo razmerje
+				\item Kazalnika revščine
 			\end{itemize}
-		\item Ekonomska neenakost doma in po svetu
 		\item Ekonomska neenakost in demokracija
 	\end{itemize}
 \end {frame}
@@ -107,9 +106,9 @@ $$
 \item Popolna enakomerna porazdelitev premoženja: L(p) = p.
 $$\Rightarrow 0 \leq L(p) \leq p$$
 \begin{tcolorbox}[colback=black!5,colframe=red!40!black,title=Ginijev koeficient]
-$$G := 2 \cdot \int_{0}^{1} (p - L(P)) dp$$
+$$G := 2 \cdot \int_{0}^{1} (p - L(p)) dp$$
 \end{tcolorbox}
-\item Ker je  $0 \leq \int_{0}^{1} (p - L(P)) dp \leq \int_{0}^{1} p dp = \frac{1}{2}$, je $G \in [0, 1].$
+\item Ker je  $0 \leq \int_{0}^{1} (p - L(p)) dp \leq \int_{0}^{1} p dp = \frac{1}{2}$, je $G \in [0, 1].$
 \end{itemize}
 \end{frame}
 
@@ -151,13 +150,13 @@ $$
 \begin{itemize}
 \item osredotoči se na krajišča (na najrevnejše in najbogatejše prebivalstvo),
 \item odzivno na visoko neenakost (Ginijev koeficijent opazi samo nizko neenakost),
-\item preprost izračun.
+\item preprost izračun
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Graf: Palmovo razmerje in Ginijev koeficijent}
+\frametitle{Graf: Palmovo razmerje in Ginijev koeficient}
 \begin{figure}
 \includegraphics[scale = 0.87]{./slike/gini_palma.png}
 \end{figure}
@@ -173,20 +172,20 @@ $$
 
 \item \textbf{Poverty gap index (PGI)}:
 \begin{itemize}
-\item $N := \textrm{število prebivalcev}$ ,
+\item $N := \textrm{število prebivalcev}$,
 \item $q := \textrm{število prebivalcev, ki živijo pod pragom revščine}$,
 \item $z := \textrm{prag revščine}$,
 \item $q_i := \textrm{dohodek revnega prebivalca i}$,
 \end{itemize}
 $$
-PGI = 1/N \sum_{j=1}^q (\frac{z-y_i}{z}).
+PGI = \frac{1}{N} \cdot \sum_{i=1}^q (\frac{z-q_i}{z}).
 $$
 \end{itemize}
 \end{frame}
 
 
 \begin{frame}
-\frametitle{Graf: Stopnja tveganja revščine in Ginijev koeficijent}
+\frametitle{Graf: Stopnja tveganja revščine in Ginijev koeficient}
 \begin{figure}
 \includegraphics[scale = 0.8]{./slike/gini_revscina.png}
 \end{figure}
@@ -197,7 +196,7 @@ $$
 \frametitle{Ekonomska neenakost in demokracija}
 \begin{itemize}
 \item \textbf{Demokracija} je oblika vladavine, v kateri oblast, oziroma pravica vladati, izvira iz ljudstva.
-\item Ogledali si bomo kako ekonomska neenakost vpliva na osrednje lastnosti demokracij,
+\item Ogledali si bomo kako ekonomska neenakost vpliva na osrednje lastnosti demokracij.
 \item Tri različne teorije, ki vsaka različno razlaga povezavo med ekonomsko neenakostjo in politično vključenost prebivalcev v demokratičnih državah:
 	\begin{itemize}
 	\item \textbf{teorija relativne moči},
